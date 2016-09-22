@@ -1,0 +1,82 @@
+.container	{
+	background-color:purple;	
+	display:flex;
+	border:5px solid goldenrod;
+	height:100%;
+	flex-direction:column;
+}
+body 	{
+	color:yellow;
+}
+.IMAGE	{
+	background-color:goldenrod;
+	width:100%;
+	text-align:center;
+	border:2.5px solid goldenrod;
+}
+h1	{
+	background-color:purple;
+	color:yellow;
+	min-width:100%;
+	text-align: center;
+	margin-top:50px;
+	border:3px solid goldenrod;
+}
+h3	{
+	text-align:center;
+}
+div.nav-menu	{	
+	background-color:#60668B;
+}
+div.nav-menu  li	{
+	float:left;
+	width:120px;
+	height:35px;
+	background-color:#7D83A4;
+	text-align:center;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	line-height:40px;
+	border:5px solid goldenrod;
+}
+div.nav-menu ul	{
+	border:2px solid goldenrod;
+	margin:0;
+
+}
+div.nav-menu ul	li	{
+	list-style:none;
+	float:left;
+}
+div.nav-menu ul	li a:link,
+div.nav-menu ul	li a:visited	{
+	display:block;
+	color:#ffffff;
+	font-size:90%;
+	padding:10px 25px 10px 0:
+	color:#305782;
+	text-decoration:none;
+	font-weight:bold:
+}
+div.nav-menu ul	li a:hover	{
+	background-color:#29336b;
+	color:#F8F068;
+}
+@media screen and (max-width:480px)	{
+	div.nav-menu ul	li	{
+	float:left;
+	
+}
+}
+.menu-trigger{
+	font-weight:bold;
+	color:yellow;
+}
+#The-Footer	{
+	background-color:#BA2B22;
+	color:yellow;
+	clear:both;
+	text-align:center;
+	border-top:3px solid goldenrod;
+	padding:5px;
+}
